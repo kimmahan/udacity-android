@@ -3,5 +3,17 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="welcome">My Nanodegree Apps!</string>
+    <string name="main_welcome">My Nanodegree Apps!</string>
+    <string name="spotify">Spotify Streamer</string>
+    <string name="scores">Scores App</string>
+    <string name="library">Library App</string>
+    <string name="buildit">Build It Bigger</string>
+    <string name="xyz">XYZ Reader</string>
+    <string name="capstone">Capstone: My Own App</string>
+    <string name="toast_spotify">This will launch the Spotify Streamer</string>
+    <string name="toast_scores">The Scores App</string>
+    <string name="toast_library">The Library App</string>
+    <string name="toast_buildit">Build It Bigger</string>
+    <string name="toast_xyz">This will launch the XYZ Reader</string>
+    <string name="toast_capstone">Capstone!!!</string>
 </resources>

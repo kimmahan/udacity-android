@@ -8,59 +8,57 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
-        android:id="@+id/button_main1"
+        android:text="@string/spotify"
+        android:id="@+id/button_spotify"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Scores App"
-        android:id="@+id/button_main2"
-        android:layout_below="@+id/button_main1"
-        android:layout_alignEnd="@+id/button_main4" />
+        android:text="@string/scores"
+        android:id="@+id/button_scores"
+        android:layout_below="@+id/button_spotify" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Library App"
-        android:id="@+id/button_main3"
-        android:layout_below="@+id/button_main2"
+        android:text="@string/library"
+        android:id="@+id/button_library"
+        android:layout_below="@+id/button_scores"
         android:layout_centerHorizontal="true"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Build It Bigger"
-        android:id="@+id/button_main4"
-        android:layout_below="@+id/button_main3"
+        android:text="@string/buildit"
+        android:id="@+id/button_buildit"
+        android:layout_below="@+id/button_library"
         android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="XYZ Reader"
-        android:id="@+id/button_main5"
-        android:layout_below="@+id/button_main4"
-        android:layout_alignStart="@+id/button_main4" />
+        android:text="@string/xyz"
+        android:id="@+id/button_xyz"
+        android:layout_below="@+id/button_buildit" />
 
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Capstone: My Own App"
-        android:id="@+id/button_main6"
-        android:layout_below="@+id/button_main5"
-        android:layout_alignStart="@+id/button_main5"
+        android:text="@string/capstone"
+        android:id="@+id/button_capstone"
+        android:layout_below="@+id/button_xyz"
+        android:layout_alignStart="@+id/button_xyz"
         android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/welcome"
-        android:id="@+id/textView_main1"
+        android:text="@string/main_welcome"
+        android:id="@+id/textView_main_welcome"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

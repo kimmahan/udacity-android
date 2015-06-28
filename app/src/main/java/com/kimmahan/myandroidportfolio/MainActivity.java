@@ -46,12 +46,12 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
     }
 
     private void initializeVars() {
-        spotify = (Button)findViewById(R.id.button_main1);
-        scores = (Button)findViewById(R.id.button_main2);
-        library = (Button)findViewById(R.id.button_main3);
-        build = (Button)findViewById(R.id.button_main4);
-        xyz = (Button)findViewById(R.id.button_main5);
-        capstone = (Button)findViewById(R.id.button_main6);
+        spotify = (Button)findViewById(R.id.button_spotify);
+        scores = (Button)findViewById(R.id.button_scores);
+        library = (Button)findViewById(R.id.button_library);
+        build = (Button)findViewById(R.id.button_buildit);
+        xyz = (Button)findViewById(R.id.button_xyz);
+        capstone = (Button)findViewById(R.id.button_capstone);
         spotify.setOnClickListener(this);
         scores.setOnClickListener(this);
         library.setOnClickListener(this);
@@ -63,23 +63,23 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
     public void onClick(View v){
 
         switch(v.getId()){
-            case R.id.button_main1:
-                Toast.makeText(this, "This will launch the Spotify Streamer!", Toast.LENGTH_SHORT).show();
+            case R.id.button_spotify:
+                Toast.makeText(this,R.string.toast_spotify, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button_main2:
-                Toast.makeText(this, "Scores App", Toast.LENGTH_SHORT).show();
+            case R.id.button_scores:
+                Toast.makeText(this, R.string.toast_scores, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button_main3:
-                Toast.makeText(this, "Library App", Toast.LENGTH_SHORT).show();
+            case R.id.button_library:
+                Toast.makeText(this, R.string.toast_library, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button_main4:
-                Toast.makeText(this, "Build it bigger", Toast.LENGTH_LONG).show();
+            case R.id.button_buildit:
+                Toast.makeText(this, R.string.toast_buildit, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button_main5:
-                Toast.makeText(this, "XYZ", Toast.LENGTH_LONG).show();
+            case R.id.button_xyz:
+                Toast.makeText(this, R.string.toast_xyz, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.button_main6:
-                Toast.makeText(this, "Capstone!", Toast.LENGTH_LONG).show();
+            case R.id.button_capstone:
+                Toast.makeText(this, R.string.toast_capstone, Toast.LENGTH_SHORT).show();
                 break;
         }
 
